@@ -57,7 +57,7 @@ func TestSetInterval(t *testing.T) {
 	})
 
 	wg.Wait()
-	p.get().Stop()
+	p.Get().Stop()
 }
 
 func TestSetTimeout(t *testing.T) {
