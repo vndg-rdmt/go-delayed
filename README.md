@@ -1,4 +1,4 @@
-# go-delayed
+# go-delayed [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov]
 
 ### Install
 
@@ -29,3 +29,11 @@ timeoutTimer := d.SetTimeout(time.Second * 5, func() {
     fmt.Println("This message printed after 5 seconds")
 })
 ```
+
+[ci-img]: https://github.com/vndg-rdmt/go-delayed/actions/workflows/ci.yml/badge.svg
+
+[ci]: https://github.com/vndg-rdmt/go-delayed/actions/workflows/ci.yml
+
+[cov-img]: https://codecov.io/gh/vndg-rdmt/go-delayed/branch/main/graph/badge.svg?token=V6UTUUG3NF
+
+[cov]: https://codecov.io/gh/vndg-rdmt/go-delayed
