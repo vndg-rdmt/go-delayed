@@ -16,7 +16,7 @@ func (self *PlannerTimer) set(t *time.Timer) {
 	self.t = t
 }
 
-func (self *PlannerTimer) get() *time.Timer {
+func (self *PlannerTimer) Get() *time.Timer {
 	self.mx.Lock()
 	defer self.mx.Unlock()
 	return self.t
