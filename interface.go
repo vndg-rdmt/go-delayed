@@ -3,8 +3,8 @@ package delayed
 import "time"
 
 type Scheduler interface {
-	SetInterval(interval time.Duration, d func()) *time.Timer
-	SetTimeout(timeout time.Duration, d func()) *time.Timer
+	SetInterval(interval time.Duration, d func()) *PlannerTimer
+	SetTimeout(timeout time.Duration, d func()) *PlannerTimer
 }
 
 type Config struct {
