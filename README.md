@@ -34,6 +34,6 @@ timeoutTimer := d.SetTimeout(time.Second * 5, func() {
 
 [ci]: https://github.com/vndg-rdmt/go-delayed/actions/workflows/ci.yml
 
-[cov-img]: https://codecov.io/gh/vndg-rdmt/go-delayed/branch/main/graph/badge.svg?token=V6UTUUG3NF
+[cov-img]: https://codecov.io/gh/vndg-rdmt/go-delayed/branch/main/graph/badge.svg?token=h2KPSXfm5E
 
 [cov]: https://codecov.io/gh/vndg-rdmt/go-delayed
